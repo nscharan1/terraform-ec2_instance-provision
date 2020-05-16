@@ -18,8 +18,8 @@ provider "aws" {
 
 resource "aws_instance" "example" {
 
-  ami                    = "${var.ami_id}"  
-  instance_type          = "${var.instance_id}" 
-  key_name               = "${var.key_id}" 
+  ami                    = "var.ami_id"
+  instance_type          = "var.instance_id" 
+  key_name               = "var.key_id" 
   
 }
