@@ -24,3 +24,5 @@ variable "instance_id" {
 variable "key_id" {
   description = "keyname"
   default     = "pri"
+
+}
