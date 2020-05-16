@@ -21,3 +21,4 @@ resource "aws_instance" "example" {
   instance_type          = "${var.instance_id}" 
   key_name               = "${var.key_id}" 
   
+}
