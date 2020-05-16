@@ -13,7 +13,7 @@ pipeline {
   stage('Provision') {
  
   steps {
-  sh 'terraform init'
+  sh '/opt/terraform init'
   sh 'terraform plan -out=plan'
   // sh ‘terraform destroy -auto-approve’
   sh 'terraform apply plan'
