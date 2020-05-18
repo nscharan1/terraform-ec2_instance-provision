@@ -19,6 +19,7 @@ resource "aws_instance" "example" {
   key_name               = "${var.key_id}" 
   
 }
-  tags {
+
+tags {
     Name        = "Terraform server"
 }
